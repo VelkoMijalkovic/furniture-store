@@ -1,26 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg=""/>
+
+  <StickyHeader/>
+  <HomeMiddle/>
+  <FooterLinks/>
+  <ShopPage/>
+
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ShopPage from './components/Shop.vue'
+import StickyHeader from './components/Header.vue'
+import FooterLinks from './components/Footer.vue'
+import HomeMiddle from './components/HomeCenter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    StickyHeader,
+    FooterLinks,
+    HomeMiddle,
+    ShopPage,
+  },
+  data() {
+      return {
+        
+      }
+    }
+  
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import "./assets/css/style.scss";
+
 </style>
