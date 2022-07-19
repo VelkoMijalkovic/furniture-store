@@ -34,7 +34,7 @@
         </div>
     </div>
     
-    <h3 class="total">total: <span>R5 299.00</span></h3>
+    <h3 class="total">total: <span>R {{total}}</span></h3>
     <a href="#" class="btn">checkout cart</a>
 
 </div>
@@ -106,8 +106,15 @@ export default {
         
       }
     },
-    props: {
+    computed: {
+      total() {
+        let total = 0;
+        this.products.forEach((item) => {
+          total += item.price;
+        });
+        return total;
       
+      }
     },
     methods : {
       closer() {
