@@ -9,7 +9,7 @@
     <div class="icons">
         <div id="menu-btn"><font-awesome-icon icon="bars" @click="menu" size="1x" ></font-awesome-icon></div> 
         <div id="search-btn"><font-awesome-icon icon="search" @click="searchbtn" size="1x" ></font-awesome-icon></div> 
-        <div id="cart-btn"><font-awesome-icon icon="shopping-cart" @click="cartbtn" size="1x" ></font-awesome-icon>(4)</div> 
+        <div id="cart-btn"><font-awesome-icon icon="shopping-cart" @click="cartbtn" size="1x" ></font-awesome-icon>{{currentCart.length}}</div> 
         <div id="login-btn"><font-awesome-icon icon="user" @click="loginbtn" size="1x" ></font-awesome-icon></div> 
     </div>
 </header>
@@ -17,14 +17,14 @@
     
 
 <div class="shopping-cart">
-    <div class="box">
+    <div class="box" :shoppingCart="currentCart" v-for="product in currentCart" :key="product">
         <i><font-awesome-icon icon="times" size="2x"></font-awesome-icon></i>
-        <img src="../../images/cart-img-1.jpg" alt="furniture image">
+        <img :src="product.image" alt="furniture image">
         <div class="content">
-            <h3>model furniture set Triple armchair</h3>
+            <h3>{{product.name}}</h3>
             <span class="quantity">1</span>
             <span class="multiply">x</span>
-            <span class="price">R4 999.00</span>
+            <span class="price">{{product.price}}</span>
         </div>
     </div>
     <div class="box">
@@ -88,7 +88,7 @@ export default {
     },
     data() {
       return {
-        
+        currentCart:[],
       }
     },
     methods: {
