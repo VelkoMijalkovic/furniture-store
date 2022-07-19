@@ -55,160 +55,7 @@
                 </div>
             </div>
         </div>
-        <div class="box">
-            <div class="icons">
-                 <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-1.png" alt="product two">
-            </div>
-            <div class="content">
-                <div class="price">R 3999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                   <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icons">
-                 <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-3.png" alt="product three">
-            </div>
-            <div class="content">
-                <div class="price">R 4999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                   <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icons">
-                <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-4.png" alt="product four">
-            </div>
-            <div class="content">
-                <div class="price">R 24999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                   <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icons">
-                 <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-5.png" alt="product five">
-            </div>
-            <div class="content">
-                <div class="price">R 13999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                   <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icons">
-                 <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-6.png" alt="product six">
-            </div>
-            <div class="content">
-                <div class="price">R 1999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                  <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icons">
-                 <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-7.png" alt="product seven">
-            </div>
-            <div class="content">
-                <div class="price">R 12999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                   <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icons">
-                 <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
-                <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
-                <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
-            </div>
-            <div class="image">
-                <img src="../../images/product-8.png" alt="product eight">
-            </div>
-            <div class="content">
-                <div class="price">R 43999,00</div>
-                <h3>Modern Furniture</h3>
-                <div class="stars">
-                   <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                    <i><font-awesome-icon icon="star" size="1x"></font-awesome-icon></i>
-                   <span> (50) </span>
-                </div>
-            </div>
-        </div>
+        
         
     </div>
 </section>
@@ -229,18 +76,60 @@ export default {
       return {
             products: [
                 {
-                    name: 'furniture 1',
-                    price: 'R 3000,00',
-                    image: '../../images/product-8.png',
-                    likes: 20,
+                    name: 'The classic',
+                    price: 'R 3499,99',
+                    image: require('../../images/product-1.png'),
+                    likes:'(34)',
                     alt: 'image one'
                 },
                 {
-                    name: 'furniture 2',
-                    price: 'R 2000,00',
-                    image: '../../images/product-2.png',
-                    likes: 40,
+                    name: 'Lounge button chair',
+                    price: 'R 4999,99',
+                    image: require('../../images/product-2.png'),
+                    likes: '(23)',
                     alt: 'image two'
+                },
+                {
+                    name: 'Pink Self Standing Sofa',
+                    price: 'R 2499,99',
+                    image: require('../../images/product-3.png'),
+                    likes: '(42)',
+                    alt: 'image three'
+                },
+                {
+                    name: 'Brown Three Seater Couch',
+                    price: 'R 12999,99',
+                    image: require('../../images/product-4.png'),
+                    likes: '(59)',
+                    alt: 'image four'
+                },
+                {
+                    name: 'Vintage Self Standing Bed Frame and Side',
+                    price: 'R 42999,99',
+                    image: require('../../images/product-5.png'),
+                    likes: '(15)',
+                    alt: 'image five'
+                },
+                {
+                    name: 'Classic Bar Stool',
+                    price: 'R 999,99',
+                    image: require('../../images/product-6.png'),
+                    likes: '(115)',
+                    alt: 'image six'
+                },
+                {
+                    name: 'Full Modern Dining Room Set',
+                    price: 'R 29999,99',
+                    image: require('../../images/product-7.png'),
+                    likes: '(20)',
+                    alt: 'image seven'
+                },
+                {
+                    name: 'Modern Patio Umbrella full',
+                    price: 'R 39999,99',
+                    image: require('../../images/product-8.png'),
+                    likes: '(65)',
+                    alt: 'image eight'
                 }
             ]
       }
