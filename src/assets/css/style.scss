@@ -662,6 +662,7 @@ section {
             }
             .icons {
                 top: 0;
+                cursor: pointer;
             }
         }
         .icons {
@@ -676,6 +677,7 @@ section {
             gap: .5rem;
             background: rgba(242,242,242,0.7);
             z-index: 10;
+            
             a{
                 box-shadow: $box-shadow;
                 text-align: center;

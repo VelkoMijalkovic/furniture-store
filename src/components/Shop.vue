@@ -35,7 +35,7 @@
     <div class="box-container">
         <div v-for="product in products" :key="product" class="box">
             <div class="icons">
-                <a href="#"><font-awesome-icon icon="shopping-cart" size="1x"></font-awesome-icon></a>
+                <a @click="addItemToCart(product)"><font-awesome-icon icon="shopping-cart" size="1x" ></font-awesome-icon></a>
                 <a href="#" ><i><font-awesome-icon icon="heart" size="1x"></font-awesome-icon></i></a>
                 <a href="#"><i><font-awesome-icon icon="eye" size="1x"></font-awesome-icon></i></a>
             </div>
@@ -74,6 +74,7 @@ export default {
   },
   data() {
       return {
+        cart: [],
             products: [
                 {
                     name: 'The classic',
@@ -134,6 +135,13 @@ export default {
             ]
       }
     },
+    methods: {
+        addItemToCart(product) {
+            
+            this.cart.push(product);
+            console.log(this.cart)
+        }
+    }
     
 }
 </script>
