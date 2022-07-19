@@ -5,10 +5,10 @@
     <div class="box-container">
         <div class="box">
             <div class="share">
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-pinterest"></a>
-                <a href="#" class="fab fa-instagram"></a>
+               <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
             </div>
             <div class="images"><img src="../../images/team-1.jpg" alt="member 1"></div>
             
@@ -19,10 +19,10 @@
             </div>
             <div class="box">
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
                 </div>
                 <div class="images"><img src="../../images/team-2.jpg" alt="member 1"></div>
                 <div class="user">
@@ -32,10 +32,10 @@
             </div>
             <div class="box">
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
                 </div>
                 <div class="images"><img src="../../images/team-3.jpg" alt="member 1"></div>
                 <div class="user">
@@ -45,10 +45,10 @@
             </div>
             <div class="box">
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
                 </div>
                 <div class="images"> <img src="../../images/team-4.jpg" alt="member 1"> </div>
                 <div class="user">
@@ -58,10 +58,10 @@
             </div>
             <div class="box">
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
                 </div>
                 <div class="images"><img src="../../images/team-5.jpg" alt="member 1"> </div>
                 <div class="user">
@@ -71,10 +71,10 @@
             </div>
             <div class="box">
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></a>
+                    <a href="#"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
                 </div>
                 <div class="images"><img src="../../images/team-6.jpg" alt="member 1"> </div>
                 <div class="user">

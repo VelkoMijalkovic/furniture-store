@@ -6,14 +6,15 @@
     <a @click="shopToggle">Shop</a>
     <a @click="aboutToggle">About</a>
     <a @click="teamToggle">Team</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
+    <a @click="blogToggle">Blog</a>
+    <a @click="contactToggle">Contact</a>
 </nav>
   <HomeMiddle v-if="visibleHomeMiddle"/>
   <ShopPage v-if="visibleShop"/>
   <AboutPage v-if="visibleAbout"/>
   <TeamPage v-if="visibleTeam"/>
-  <blogPage v-if="visibleBlog"></blogPage>
+  <BlogPage v-if="visibleBlog"/>
+  <ContactPage v-if="visibleContact"/>
   <FooterLinks/>
   
 
@@ -29,6 +30,7 @@ import HomeMiddle from './components/HomeCenter.vue'
 import AboutPage from './components/About.vue'
 import TeamPage from './components/Team.vue'
 import BlogPage from './components/Blog.vue'
+import ContactPage from './components/Contact.vue'
 
 
 
@@ -44,6 +46,7 @@ export default {
     AboutPage,
     TeamPage,
     BlogPage,
+    ContactPage,
   },
   data() {
       return {
@@ -52,7 +55,7 @@ export default {
         visibleAbout : false,
         visibleTeam : false,
         visibleBlog : false,
-
+        visibleContact : false,
 
       }
     },
@@ -97,6 +100,8 @@ export default {
         this.visibleShop = false;
         this.visibleAbout = false;
         this.visibleTeam = false;
+        this.visibleBlog = false;
+        this.visibleContact=  false;
         this.closer();
       },
       shopToggle () {
@@ -104,6 +109,8 @@ export default {
         this.visibleShop = true;
         this.visibleAbout = false;
         this.visibleTeam = false;
+        this.visibleBlog = false;
+        this.visibleContact=  false;
         this.closer();
       },
       aboutToggle () {
@@ -111,6 +118,8 @@ export default {
         this.visibleShop = false;
         this.visibleAbout = true;
         this.visibleTeam = false;
+        this.visibleBlog = false;
+        this.visibleContact=  false;
         this.closer();
       },
       teamToggle () {
@@ -118,6 +127,26 @@ export default {
         this.visibleShop = false;
         this.visibleAbout = false;
         this.visibleTeam = true;
+        this.visibleBlog = false;
+        this.visibleContact=  false;
+        this.closer();
+      },
+      blogToggle () {
+        this.visibleHomeMiddle = false;
+        this.visibleShop = false;
+        this.visibleAbout = false;
+        this.visibleTeam = false;
+        this.visibleBlog = true;
+        this.visibleContact=  false;
+        this.closer();
+      },
+      contactToggle () {
+        this.visibleHomeMiddle = false;
+        this.visibleShop = false;
+        this.visibleAbout = false;
+        this.visibleTeam = false;
+        this.visibleBlog = false;
+        this.visibleContact=  true;
         this.closer();
       }
     }

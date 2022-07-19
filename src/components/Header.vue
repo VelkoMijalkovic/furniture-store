@@ -9,7 +9,7 @@
     <div class="icons">
         <div id="menu-btn"><font-awesome-icon icon="bars" @click="menu" size="1x" ></font-awesome-icon></div> 
         <div id="search-btn"><font-awesome-icon icon="search" @click="searchbtn" size="1x" ></font-awesome-icon></div> 
-        <div id="cart-btn"><font-awesome-icon icon="shopping-cart" @click="cartbtn" size="1x" ></font-awesome-icon></div> 
+        <div id="cart-btn"><font-awesome-icon icon="shopping-cart" @click="cartbtn" size="1x" ></font-awesome-icon>(4)</div> 
         <div id="login-btn"><font-awesome-icon icon="user" @click="loginbtn" size="1x" ></font-awesome-icon></div> 
     </div>
 </header>

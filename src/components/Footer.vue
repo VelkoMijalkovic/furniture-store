@@ -21,11 +21,11 @@
         </div>
         <div class="box">
             <h3>Quick Links</h3>
-                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-pinterest"></i> Pinterest</a>
+                <a href="#"><i><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></i> Facebook</a>
+                <a href="#"><i><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></i> Twitter</a>
+                <a href="#"><i><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></i> Instagram</a>
+                <a href="#"><i><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin' }"/></i> Linkedin</a>
+                <a href="#"><i><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest' }"/></i> Pinterest</a>
         </div>
         <div class="box">
             <h3>Newsletter</h3>
