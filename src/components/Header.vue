@@ -15,14 +15,7 @@
 </header>
  <div id="closer"><font-awesome-icon icon="times" @click="closer" size="1x" ></font-awesome-icon></div> 
     
-<nav class="navbar">
-    <a href="home.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="about.html">About</a>
-    <a href="team.html">Team</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
+
 <div class="shopping-cart">
     <div class="box">
         <i><font-awesome-icon icon="times" size="2x"></font-awesome-icon></i>
@@ -89,8 +82,14 @@
 //import TestComp from './TestComp.vue';
 export default {
     name: "StickyHeader",
+    
     props: {
-       
+      
+    },
+    data() {
+      return {
+        
+      }
     },
     methods: {
       closer() {
@@ -124,7 +123,9 @@ export default {
       searchbtn () {
         let searchForm = document.querySelector('.header .search-form');
         searchForm.classList.toggle('active');
-      }
+      },
+      
+      
     }
 }
 </script>

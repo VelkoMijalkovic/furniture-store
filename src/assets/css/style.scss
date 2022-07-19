@@ -216,6 +216,7 @@ section {
         color: $green;
         &:hover{
         color: $light-color;
+        cursor: pointer;
         }
     }
 }
