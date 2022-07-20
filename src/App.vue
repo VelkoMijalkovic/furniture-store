@@ -34,7 +34,7 @@
         </div>
     </div>
     
-    <h3 class="total">total: <span>R {{total}}</span></h3>
+    <h3 class="total">total: <span>R {{total.toFixed(2)}}</span></h3>
     <a href="#" class="btn">checkout cart</a>
 
 </div>

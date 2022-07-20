@@ -22,7 +22,7 @@
                 <a href="#" class="btn">Shop now</a>
             </div>
             <div class="image">
-                <img src="../../images/home-img-2.png" alt="home image 1">
+                <img src="../../images/home-img-2.png" alt="home image 2">
             </div>
         </div>
     </div>
