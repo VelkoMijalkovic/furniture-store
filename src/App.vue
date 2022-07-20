@@ -24,7 +24,7 @@
 </nav> 
 <div class="shopping-cart">
     <div class="box" v-for="product in products" :key="product">
-        <i><font-awesome-icon icon="times" size="2x"></font-awesome-icon></i>
+        <i class="fa-times"><font-awesome-icon icon="times" size="1x" @click="removeProduct(product)"></font-awesome-icon></i>
         <img :src="product.image" alt="furniture image">
         <div class="content">
             <h3>{{product.name}}</h3>
@@ -208,6 +208,10 @@ export default {
       },
       cartProducts(value) {
         this.products.push(value);
+      },
+      removeProduct(product){
+        this.products.splice(this.products.indexOf(product), 1);
+        this.totalItems--;
       }
     }
   
