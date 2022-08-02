@@ -207,6 +207,7 @@ section {
 }
 .navbar a:hover {
   color: #779;
+  cursor: pointer;
 }
 
 .shopping-cart {
@@ -646,6 +647,7 @@ section {
 }
 .products .box-container .box:hover .icons {
   top: 0;
+  cursor: pointer;
 }
 .products .box-container .box .icons {
   position: absolute;
@@ -658,7 +660,7 @@ section {
   justify-content: center;
   gap: 0.5rem;
   background: rgba(242, 242, 242, 0.7);
-  z-index: 10;
+  z-index: 5;
 }
 .products .box-container .box .icons a {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);

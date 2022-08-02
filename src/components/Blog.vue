@@ -88,7 +88,8 @@ export default {
                     alt: 'blog six',
                     date: '15th July 2022 ',
                     writer: 'Deandra'
-                }
+                },
+                
 
 
                 ]

@@ -69,15 +69,14 @@
 
 export default {
   name: 'ShopPage'
-  
   ,
-  props: {
-    
-  },
-
+  props:
+  ["numberOfProducts"]
+  ,
   data() {
       return {
             cart: [],
+            items: 1,
             products: [
                 {
                     name: 'The classic',
@@ -139,13 +138,13 @@ export default {
       }
     },
     methods: {
-        addItemToCart(product) {
-            
-           this.cart.push(product);
-           this.$emit('totalCart', this.cart.length);
-            this.$emit('additionalProducts',product);
-        },
+
+        addItemToCart(product) {  
+        this.cart.push(product);
+        this.$emit('totalCart', this.numberOfProducts);
+        this.$emit('additionalProducts',product);
         
+        },
     }
     
 }
