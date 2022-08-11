@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="header">
-      <a href="home.html" class="logo"><img src="../images/logo.png" alt="Joshua Doore" id="imglogo">Joshua Doore</a>
+      <a class="logo"><img src="../images/logo.png" alt="Joshua Doore" id="imglogo" @click="homeMiddleToggle" >Joshua Doore</a>
       <form action="" class="search-form">
         <input type="search" placeholder="search here..." id="search-box">
         <label for="search-box" class="fas fa-search"></label>

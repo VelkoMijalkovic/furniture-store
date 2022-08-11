@@ -128,6 +128,9 @@ section {
             width: 25%;
         }
     }
+    .logo:hover {
+        cursor: pointer;
+    }
     .search-form {
         height: 5rem;
         width: 50rem;
@@ -917,6 +920,7 @@ section {
     #imglogo {
         width: 90%;
     }
+
 }
 
 @media (max-width: 450px) {

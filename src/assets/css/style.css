@@ -112,6 +112,9 @@ section {
   padding-right: 0.3rem;
   width: 25%;
 }
+.header .logo:hover {
+  cursor: pointer;
+}
 .header .search-form {
   height: 5rem;
   width: 50rem;
